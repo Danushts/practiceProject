@@ -47,8 +47,10 @@ namespace HotelSystem.ViewModel
 
         public RoomsTabViewModel(HotelContext context)
         {
+			try{
             Context = context;
             Context.Rooms.Load();
+			}catch(){}
         }
         
         #region Commands
