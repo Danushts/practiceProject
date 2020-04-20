@@ -13,7 +13,11 @@ namespace HotelSystem.ViewModel
 {
     public class RoomsTabViewModel : ViewModelBase
     {
-        private Room _selectedRoom;
+        private    Room _selectedRoom;
+		
+		
+		
+		
         private IList<Room> _filteredRoomList;
 
         public HotelContext Context { get; }
