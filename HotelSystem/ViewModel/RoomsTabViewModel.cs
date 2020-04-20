@@ -50,7 +50,7 @@ namespace HotelSystem.ViewModel
 			try{
             Context = context;
             Context.Rooms.Load();
-			}catch(){}
+			}
         }
         
         #region Commands
